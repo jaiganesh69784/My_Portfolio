@@ -28,17 +28,19 @@ $(document).ready(function() {
         $(".menu-btn i").toggleClass("active");
     });
 
-    new Typed(".typing", {
-        strings: [
-            "Software Developer",
-            "Java Developer",
-            "Python Developer",
-            "Backend Developer"
-        ],
-        typeSpeed: 80,
-        backSpeed: 50,
-        loop: true
-    });
+
+
+   new Typed(".typing", {
+    strings: [
+        "Software Developer",
+        "Java Developer",
+        "Python Developer",
+        "Computer Science Graduate"
+    ],
+    typeSpeed: 80,
+    backSpeed: 50,
+    loop: true
+});
 
     new Typed(".typing-2", {
         strings: [
