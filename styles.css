@@ -17,6 +17,14 @@ html {
     background: #f1f1f1;
 }
 
+.experience-card .company-logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
 .loader_bg {
     position: fixed;
     z-index: 9999999;
